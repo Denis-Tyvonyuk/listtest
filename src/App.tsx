@@ -8,7 +8,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<ListPage />} />
-        <Route path="/item" element={<ItemPage />} />
+        <Route path="/item/:id" element={<ItemPage />} />
       </Routes>
     </BrowserRouter>
   );
